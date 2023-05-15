@@ -35,7 +35,8 @@ const styles = StyleSheet.create({
   },
   searchInput: {
     fontFamily: FONT.regular,
-    backgroundColor: COLORS.Cornflower,
+    backgroundColor: COLORS.primary,
+    color: COLORS.white,
     width: "100%",
     height: "100%",
     paddingHorizontal: SIZES.medium,
