@@ -19,6 +19,7 @@ const JobDetails = () => {
   const [activeTab, setActiveTab] = useState(tabs[0])
   const [refreshing, setRefreshing] = useState(false)
 
+  //refresh to get the data
   const onRefresh = useCallback(() => {
     setRefreshing(true)
     refetch()
